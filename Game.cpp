@@ -235,7 +235,7 @@ void Game::updateEnemies()
 						this->sound.play();
 					}
 					else
-						cout << "ERROR: Failed to load sound file!" << endl;//TODO: Clean up
+						cout << "ERROR: Failed to load sound file!" << endl;
 
 					//Gain points
 					if (this->enemies[i].getFillColor() == Color::Red)
